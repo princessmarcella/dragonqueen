@@ -1,0 +1,11 @@
+---
+application:
+  name: "dragonqueen"
+  project: "dragonqueen"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-dragonqueen"
+  routes:
+  - application_name: "dragonqueen"
+    paths:
+    - "/*"
